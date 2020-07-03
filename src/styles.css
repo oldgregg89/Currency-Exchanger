@@ -1,0 +1,17 @@
+body {
+  background-image: url(https://images.pexels.com/photos/4386476/pexels-photo-4386476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:;
+  text-shadow: black;
+  box-sizing: border-box;
+}
+
+.header {
+  background: rgba(255, 255, 255, .5);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, .5);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color:gray;
+}
