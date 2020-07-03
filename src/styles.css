@@ -17,3 +17,8 @@ body {
   opacity: 80%;
   border-radius: 25px;
 }
+
+.cashtypes {
+  height: 200px;
+  width: 240px;
+}

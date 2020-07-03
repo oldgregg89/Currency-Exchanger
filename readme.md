@@ -7,22 +7,22 @@
 
 ## Description
 
-This application will take in the users inputed value and convert the value to the rate of the country selected. 
+This application will take in the users inputed value and convert the value to the rate of the country selected. It will have the ability to convert the currency to at value to  
 
 ## Setup/Installation Requirements
 
-
 * Click on clone and clone this repo to your desktop.
 * From there navigate to desktop to where you cloned this repo.
-* double click on index.html file and from there the software will be ready to run.
-
-__
+* Open the project up in Visual Code Studio.
+* In your terminal run 'npm install'.
+* Run unit tests with 'npm run test'
+* To build the project run 'npm run build'
 
 ## Specs
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 | Input the amount of money you want to exchange | Out will be Money converted to the value of currency  |
+| behavior 1 | Input the amount of (USD)money you want to exchange | Out will be Money converted to the value of currency  |
 | behavior 2 | Set type of money to convert currency | output of currency will come out on the inputed currency |
 
 ## Known Bugs
