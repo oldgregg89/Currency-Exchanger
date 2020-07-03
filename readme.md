@@ -1,13 +1,13 @@
-# _new template_
+# _Currency Exchanger_
 
-#### _{Brief description of application}, 2020 ver 1.0_
+#### _{Brief description of application}, 2020 ver 1.0.0_
 
 #### By _Ian Gregg & (Co author)_
-[new-template-for-code](https://github.com/oldgregg89/updated-new-template-)
+[Currency Exchanger](https://github.com/oldgregg89/Currency-Exchanger)
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+__
 
 ## Setup/Installation Requirements
 
@@ -22,10 +22,10 @@ __
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 | 'click' box | 'large', 'Med', Or 'small' |
-| behavior 2 | 'click' sauce | 'pesto', 'Alfredo', Or 'Marinara'  |
-| behavior 3 | 'click' check boxs | adds toppings choosen |
-| behavior 4 | 'click' Submit | final price |
+| behavior 1 |  |  |
+| behavior 2 |  |   |
+| behavior 3 |  |  |
+| behavior 4 |  |  |
 
 
 ## Known Bugs
