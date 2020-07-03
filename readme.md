@@ -15,7 +15,6 @@ This application will take in the users inputed value and convert the value to t
 * From there navigate to desktop to where you cloned this repo.
 * Open the project up in Visual Code Studio.
 * In your terminal run 'npm install'.
-* Run unit tests with 'npm run test'
 * To build the project run 'npm run build'
 
 ## Specs
