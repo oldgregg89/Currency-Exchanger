@@ -5,7 +5,7 @@ import $ from "jquery";
 import './currencyEchanger.js'
 
 
-async function getExchangeRate() {
+async function exchangeRate() {
   const theCurrency = await currencyEx();
   if (theCurrency === false) {
     $("#currency").text("That was incorrect, please try again.");
@@ -16,5 +16,5 @@ async function getExchangeRate() {
 
 $(document).ready(function() {
   event.preventDefault();
-
+  $currencyRate();
 });
