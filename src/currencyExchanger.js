@@ -13,12 +13,3 @@ export async function getExchangeRate() {
     }
 }
 
-
-async function getExchangeRate() {
-  const theCurrency = await currencyEx();
-  if (theCurrency === false) {
-    $("#currency").text("That was incorrect, please try again.");
-  } else {
-    $("#currency").text(`${theCurrency}`);
-  } 
-}
