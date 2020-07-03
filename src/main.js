@@ -6,4 +6,5 @@ import './currencyEchanger.js'
 
 $(document).ready(function() {
   event.preventDefault();
+  
 });
