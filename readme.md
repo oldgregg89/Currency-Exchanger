@@ -1,13 +1,13 @@
 # _Currency Exchanger_
 
-#### _{Brief description of application}, 2020 ver 1.0.0_
+#### _This application will take in the inputed value and give the exchange rate for that value., 2020 ver 1.0.0_
 
-#### By _Ian Gregg & (Co author)_
+#### By _Ian Gregg_
 [Currency Exchanger](https://github.com/oldgregg89/Currency-Exchanger)
 
 ## Description
 
-__
+This application will take in the users inputed value and convert the value to the rate of the country selected. 
 
 ## Setup/Installation Requirements
 
@@ -22,11 +22,8 @@ __
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 |  |  |
-| behavior 2 |  |   |
-| behavior 3 |  |  |
-| behavior 4 |  |  |
-
+| behavior 1 | Input the amount of money you want to exchange | Out will be Money converted to the value of currency  |
+| behavior 2 | Set type of money to convert currency | output of currency will come out on the inputed currency |
 
 ## Known Bugs
 
