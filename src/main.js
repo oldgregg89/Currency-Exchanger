@@ -16,7 +16,8 @@ async function exchangeRate() {
 
 $(document).ready(function() {
   const rates = getExchangeRate();
-  
-  var choosenCurrency = $("")
-  exchangeRate();
+  const choosenCurrency = $("");
+  let amountEntered = $('#usdInput')
+  const convertedCurrency = (amountEntered * rates);
+  $('#convCurrency').text('${amountEntered} US Dollars is ${choosenCurrency}: ${rates}');
 });
