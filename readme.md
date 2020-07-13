@@ -1,6 +1,6 @@
 # _Currency Exchanger_
 
-#### _This application will take in the US Dollars and give the exchange rate for that value., 2020 ver 1.0.0_
+#### _This application will take in the US Dollars and give the exchange rate for that value., 2020 ver 1.1.0_
 
 #### By _Ian Gregg_
 [Currency Exchanger](https://github.com/oldgregg89/Currency-Exchanger)
@@ -14,10 +14,14 @@ This application will take in the users inputted value in US Dollars and convert
 * Click on clone and clone this repo to your desktop.
 * From there navigate to desktop to where you cloned this repo.
 * Open the project up in Visual Code Studio.
-* In your terminal run 'npm install'.
-* To build the project run 'npm run build'
-
-* To get a free API key go to 
+* In your terminal run ```npm install```.
+* To build the project run ```npm run build```.
+* To get a free API key go to [ExchangeRate-API](https://www.exchangerate-api.com/).
+* login in and create an account by clicking ```get started``` and following instructions.
+* In Visual Studio Code run ```npm install dotenv --save-dev```.
+* In Visual Studio Code add a ```.env``` file.
+* Add descriptor in ```.env``` called ```API_KEY``` and set it to the API Key you were given from ExchangeRate-API.
+* To start the applicationtype In Visual Studio Code terminal ```npm run start```.
 
 ## Specs
 
@@ -28,7 +32,7 @@ This application will take in the users inputted value in US Dollars and convert
 
 ## Known Bugs
 
-_No known bugs_
+* Buttons were not working to find the correct currecny exchange (fixed)
 
 ## Support and contact details
 
@@ -36,7 +40,7 @@ _Contact Ian Gregg: <iangregg188@gmail.com>_
 
 ## Technologies Used
 
-_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, Mac, HTML, JavaScript, Webpack,CSS , Bootstrap, Json, Jest, Babel_
+_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, Mac, HTML, JavaScript, Webpack, CSS, Bootstrap, Json, Jest, Babel_
 
 ### License
 
