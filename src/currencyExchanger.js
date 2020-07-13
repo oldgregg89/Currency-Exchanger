@@ -1,10 +1,12 @@
-export async function getExchangeRate(currency) {
+export async function getExchangeRate() {
   try {
-    let response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/${currency}`);
+    debugger
+    let response = await fetch(`https://v6.exchangerate-api.com/v6/API_KEY/USD`);
     debugger
     let currencyResponse;
     if (response.ok && response.status == 200) {
-      currencyResponse = await response.json();
+      let responseJson = await response.json();
+      currencyResponse = responseJson.conversion_rates;
     } else {
       currencyResponse = false;
     }
@@ -13,3 +15,4 @@ export async function getExchangeRate(currency) {
     return false;
   }
 }
+// ${process.env.API_KEY}

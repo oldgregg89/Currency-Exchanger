@@ -2,11 +2,12 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import $ from "jquery";
-import getExchangeRate from './currencyExchanger.js'
+import {getExchangeRate} from './currencyExchanger.js'
 
 
 async function exchangeRate() {
-  const theCurrency = await getExchangeRate();
+  debugger
+  const theCurrency = await getExchangeRate('USD');
   if (theCurrency === false) {
     $("#currency").text("That was incorrect, please try again.");
   } else {
@@ -15,6 +16,7 @@ async function exchangeRate() {
 }
 
 $(document).ready(function() {
-  event.preventDefault();
-  $currencyRate();
+  debugger
+  const rates = getExchangeRate();
+  exchangeRate();
 });
