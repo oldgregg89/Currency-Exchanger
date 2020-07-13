@@ -1,13 +1,13 @@
 # _Currency Exchanger_
 
-#### _This application will take in the inputed value and give the exchange rate for that value., 2020 ver 1.0.0_
+#### _This application will take in the US Dollars and give the exchange rate for that value., 2020 ver 1.0.0_
 
 #### By _Ian Gregg_
 [Currency Exchanger](https://github.com/oldgregg89/Currency-Exchanger)
 
 ## Description
 
-This application will take in the users inputed value and convert the value to the rate of the country selected. It will have the ability to convert the currency to at value to  
+This application will take in the users inputted value in US Dollars and convert the value to the rate of the country selected. It will have the ability to convert the currency to at value to equal to four different types of currency Yen, Swiss Franc, Rupes, or Euro.
 
 ## Setup/Installation Requirements
 
@@ -17,12 +17,14 @@ This application will take in the users inputed value and convert the value to t
 * In your terminal run 'npm install'.
 * To build the project run 'npm run build'
 
+* To get a free API key go to 
+
 ## Specs
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 | Input the amount of (USD)money you want to exchange | Out will be Money converted to the value of currency  |
-| behavior 2 | Set type of money to convert currency | output of currency will come out on the inputed currency |
+| behavior 1 | Input the amount of (USD)money you want to exchange |  Money converted to the value of currency  |
+| behavior 2 | Set type of money to convert currency | Currency will be converted to inputed currency |
 
 ## Known Bugs
 
@@ -34,7 +36,7 @@ _Contact Ian Gregg: <iangregg188@gmail.com>_
 
 ## Technologies Used
 
-_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, Mac, HTML, JavaScript, Webpack,CSS , bootstrap, _
+_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, Mac, HTML, JavaScript, Webpack,CSS , Bootstrap, Json, Jest, Babel_
 
 ### License
 

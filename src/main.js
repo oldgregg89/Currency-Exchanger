@@ -6,7 +6,6 @@ import {getExchangeRate} from './currencyExchanger.js'
 
 
 async function exchangeRate() {
-  debugger
   const theCurrency = await getExchangeRate('USD');
   if (theCurrency === false) {
     $("#currency").text("That was incorrect, please try again.");
@@ -16,7 +15,8 @@ async function exchangeRate() {
 }
 
 $(document).ready(function() {
-  debugger
   const rates = getExchangeRate();
+  
+  var choosenCurrency = $("")
   exchangeRate();
 });
