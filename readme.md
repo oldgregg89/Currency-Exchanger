@@ -34,7 +34,7 @@ _Contact Ian Gregg: <iangregg188@gmail.com>_
 
 ## Technologies Used
 
-_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac_
+_The Technologies used in the making of this software was Chrome browser, Visual Studio editor, Mac, HTML, JavaScript, Webpack,CSS , bootstrap, _
 
 ### License
 
