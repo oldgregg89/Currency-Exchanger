@@ -6,12 +6,23 @@ import {getExchangeRate} from './currencyExchanger.js';
 
 $(document).ready(async function() {
   const rates = await getExchangeRate();
+  if (!rates){
+    return $('#convCurrency').text(`Something went wrong gettting exchange rates from the API.`);
+  }
   $('#currencyChanger').on('submit',(event) => {
-    event.preventDefault()
+    event.preventDefault();
     const amountEntered = $('#usdInput').val();
-    let choosenValueCurrency = $('#currencyChoices').val();
-    let convertedValue = rates[choosenValueCurrency];
-    const convertedCurrency = (amountEntered * convertedValue);
-    $('#convCurrency').text(`${amountEntered} US Dollars is equal to ${convertedCurrency} in ${choosenValueCurrency}`);
+    if (isNaN(amountEntered)) {
+      return $('#convCurrency').text(`${amountEntered} is not a currency please enter in numerical USD value.`); 
+    } else {
+      let choosenValueCurrency = $('#currencyChoices').val();
+      debugger;
+      let convertedValue = rates[choosenValueCurrency];
+      if (!convertedValue){
+        return $('#convCurrency').text(`${convertedValue} is not a valid conversion type`);
+      }
+      const convertedCurrency = (amountEntered * convertedValue);
+      $('#convCurrency').text(`${amountEntered} US Dollars is equal to ${convertedCurrency} in ${choosenValueCurrency}`);
+    }
   });
 });
