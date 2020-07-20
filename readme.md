@@ -33,6 +33,7 @@ This application will take in the users inputted value in US Dollars and convert
 ## Known Bugs
 
 * Buttons were not working to find the correct currecny exchange (fixed)
+* Errors catches were not present in the main.js (fixed)
 
 ## Support and contact details
 
