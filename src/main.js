@@ -15,8 +15,7 @@ $(document).ready(async function() {
     if (isNaN(amountEntered)) {
       return $('#convCurrency').text(`${amountEntered} is not a currency please enter in numerical USD value.`); 
     } else {
-      let choosenValueCurrency = $('#currencyChoices').val();
-      debugger;
+      let choosenValueCurrency = $('#currencyChoices').val(); 
       let convertedValue = rates[choosenValueCurrency];
       if (!convertedValue){
         return $('#convCurrency').text(`${convertedValue} is not a valid conversion type`);
